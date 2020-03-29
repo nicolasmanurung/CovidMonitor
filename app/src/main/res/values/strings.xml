@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Covid Monitor</string>
+
+    <integer-array name="gejalaImage">
+        <item>@drawable/gejala_demam</item>
+        <item>@drawable/gejala_batuk</item>
+        <item>@drawable/gejala_sesak</item>
+    </integer-array>
+
+</resources>
