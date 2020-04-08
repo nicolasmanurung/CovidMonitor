@@ -546,8 +546,8 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="32dp"
                     android:layout_marginRight="16dp"
-                    android:gravity="center"
                     android:background="@drawable/full_shape_elevation"
+                    android:gravity="center"
                     android:paddingTop="20dp"
                     android:paddingBottom="20dp">
 
@@ -570,17 +570,19 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textColor="#B1B2C4"
+                                android:text="Hotline Covid"
 
-                                android:text="Hotline Covid"/>
+                                android:textColor="#B1B2C4" />
                         </LinearLayout>
 
                     </LinearLayout>
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -7,7 +7,7 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 
-class RecyclerTouchListener : RecyclerView.OnItemTouchListener{
+class RecyclerTouchListener : RecyclerView.OnItemTouchListener {
 
     private var gestureDetector: GestureDetector? = null
     private var clickListener: ClickListener? = null
@@ -38,8 +38,8 @@ class RecyclerTouchListener : RecyclerView.OnItemTouchListener{
     }
 
     override fun onInterceptTouchEvent(rv: RecyclerView, e: MotionEvent): Boolean {
-        var child : View? = rv.findChildViewUnder(e.getX(), e.getY())
-        if(child != null && clickListener != null && gestureDetector!!.onTouchEvent(e)){
+        var child: View? = rv.findChildViewUnder(e.getX(), e.getY())
+        if (child != null && clickListener != null && gestureDetector!!.onTouchEvent(e)) {
             clickListener!!.onClick(child, rv.getChildAdapterPosition(child))
         }
         return false

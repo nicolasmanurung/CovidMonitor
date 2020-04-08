@@ -36,8 +36,6 @@ class MainActivity : AppCompatActivity() {
 
         rvGejalaImage.setHasFixedSize(true)
 
-
-
         val dataImage = resources.obtainTypedArray(R.array.gejalaImage)
         list.clear()
         for (i in 0 until dataImage.length()) {

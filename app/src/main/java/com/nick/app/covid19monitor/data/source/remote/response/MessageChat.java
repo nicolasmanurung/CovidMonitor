@@ -7,6 +7,7 @@ import java.io.Serializable;
 public class MessageChat implements Serializable {
     String id, message, url, title, description;
     public Type type;
+
     public MessageChat() {
         this.type = Type.TEXT;
     }

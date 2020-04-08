@@ -63,7 +63,7 @@ class MainViewModel : ViewModel() {
         return indonesia
     }
 
-    fun setDataNews(): MutableLiveData<NewsResponse>{
+    fun setDataNews(): MutableLiveData<NewsResponse> {
         return news
     }
 

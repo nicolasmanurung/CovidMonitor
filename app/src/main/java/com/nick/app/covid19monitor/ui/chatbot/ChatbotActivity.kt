@@ -189,7 +189,7 @@ class ChatbotActivity : AppCompatActivity() {
         watsonAssistant.serviceUrl = context.getString(R.string.assistant_url)
     }
 
-    private fun checkInternetConnection(): Boolean{
+    private fun checkInternetConnection(): Boolean {
 
         // get Connectivity Manager object to check connection
         val cm = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
