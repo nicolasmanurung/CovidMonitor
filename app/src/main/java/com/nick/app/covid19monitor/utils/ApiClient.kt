@@ -40,6 +40,15 @@ class ApiClient {
             .build()
     }
 
+    //Retrofit for Access API News
+    private fun getRetrofitInstanceNews(): Retrofit {
+        return Retrofit.Builder()
+            .baseUrl(BuildConfig.API_URL_NEWS)
+            .client(getInterceptor())
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+
 
     fun getService(): GetService {
         return getRetrofitInstance().create(GetService::class.java)
@@ -47,5 +56,9 @@ class ApiClient {
 
     fun getServiceKawal(): GetService {
         return getRetrofitInstanceKawal().create(GetService::class.java)
+    }
+
+    fun getServiceNews(): GetService {
+        return getRetrofitInstanceNews().create(GetService::class.java)
     }
 }

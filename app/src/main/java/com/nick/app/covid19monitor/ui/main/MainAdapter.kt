@@ -28,6 +28,7 @@ class MainAdapter(private val context: Context, private val listImage: List<Main
     class MainViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         private val imgGejala: ImageView = itemView.findViewById(R.id.imageGejala)
+
         fun bind(item: Main) {
             Glide.with(itemView.context)
                 .load(item.photo)

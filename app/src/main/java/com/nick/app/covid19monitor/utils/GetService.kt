@@ -1,5 +1,6 @@
 package com.nick.app.covid19monitor.utils
 
+import com.nick.app.covid19monitor.BuildConfig
 import com.nick.app.covid19monitor.data.source.remote.response.*
 import retrofit2.Call
 import retrofit2.http.GET
@@ -24,5 +25,7 @@ interface GetService {
     @GET(Constans.API_GLOBAL_SEMBUH)
     fun getSembuhGlobal(): Call<GlobalSembuh>
 
+    @GET(Constans.API_HEADLINE_NEWS + BuildConfig.API_KEY_NEWS)
+    fun getHeadlineNews(): Call<NewsResponse>
 
 }

@@ -15,6 +15,7 @@ import java.util.*
 
 class NegaraAdapter(var attributes: List<NegaraResponseItem>) :
     RecyclerView.Adapter<NegaraAdapter.NegaraAdapterViewHolder>() {
+
     class NegaraAdapterViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bindView(get: NegaraResponseItem) {
             itemView.txtNamaNegara.text = get.attributes.Country_Region
@@ -34,8 +35,6 @@ class NegaraAdapter(var attributes: List<NegaraResponseItem>) :
                 val answer: String = formatter.format(date)
                 itemView.txtTanggalNegara.text = answer
             }
-
-
         }
     }
 

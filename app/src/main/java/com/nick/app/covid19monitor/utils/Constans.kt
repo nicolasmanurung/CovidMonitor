@@ -9,5 +9,6 @@ class Constans {
         const val API_GLOBAL_MENINGGAL = "meninggal"
         const val API_GLOBAL_SEMBUH = "sembuh"
         const val API_GLOBAL_POSITIF = "positif"
+        const val API_HEADLINE_NEWS = "top-headlines?q=COVID&country=id&apiKey="
     }
 }
