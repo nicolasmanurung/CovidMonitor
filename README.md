@@ -29,9 +29,9 @@ git clone https://github.com/nick2905/CovidMonitor.git
 
 ## Contributing
 
-News API by [News API](https://newsapi.org/)
-Local Data Provinsi by [BNPB](http://covid19.bnpb.go.id/)
-Global Data by [Ethical Hacker Indonesia](https://kawalcorona.com/api/)
+* News API by [News API](https://newsapi.org/)
+* Local Data Provinsi by [BNPB](http://covid19.bnpb.go.id/)
+* Global Data by [Ethical Hacker Indonesia](https://kawalcorona.com/api/)
 
 ## Authors
 
