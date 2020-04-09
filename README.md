@@ -19,7 +19,7 @@ This application contains realtime information about the number of positive pati
 
 You can Download on
 
-* [Google Drive](https://drive.google.com/open?id=1GQT21WuV3VXyNmiPDoMi6rkpg8eGHhd6) - The web framework used
+* [Google Drive](https://drive.google.com/open?id=1GQT21WuV3VXyNmiPDoMi6rkpg8eGHhd6) 
 
 or you can clone it with
 
