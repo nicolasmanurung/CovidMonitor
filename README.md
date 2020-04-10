@@ -27,6 +27,16 @@ or you can clone it with
 git clone https://github.com/nick2905/CovidMonitor.git
 ```
 
+### Watson Assistant
+Please change with your assistant_id, assistant_apikey and assistant_url for use your chatbot.
+
+```
+    <string name="assistant_id"></string>
+    <string name="assistant_apikey"></string>
+    <string name="assistant_url"></string>
+```
+You can change that on [Config.xml](https://github.com/nick2905/CovidMonitor/blob/master/app/src/main/res/values/config.xml)
+
 ## Contributing
 
 * News API by [News API](https://newsapi.org/)
