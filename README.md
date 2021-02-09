@@ -1,3 +1,5 @@
+#This repository have been archive because the API for information has deleted
+
 # Covid Monitor
 
 This application contains realtime information about the number of positive patients, which are resolved to those caused by the Corona Virus in every province in Indonesia and every country. This application also provides a chatbot that was built using IBM Watson Assistant who requested consultation before making a call center to 119 (COVID call center) to maintain the density of the call center. The application also provides headlines about the coronavirus.
